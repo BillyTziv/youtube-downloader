@@ -1,0 +1,17 @@
+{
+  "browser_action": {
+    "browser_style": true,
+    "default_title": "Click to view tabs list",
+    "default_popup": "tabs.html"
+  },
+  "description": "List all the tabs in the current window.",
+  "manifest_version": 2,
+  "name": "Grabermis",
+  "icons": {
+		"48": "icons/icon-48.png"
+	},
+  "permissions": [
+    "tabs"
+  ],
+  "version": "1.0"
+}
