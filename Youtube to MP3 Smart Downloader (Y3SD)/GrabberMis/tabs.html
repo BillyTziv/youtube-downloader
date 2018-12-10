@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+ 
+<html>
+ 
+ <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="tabs.css"/>
+	<script type="text/javascript" src="tabs.js" > </script>
+	<script >
+		
+		function test() {
+			console.log("Hello world!!!");
+		}
+	</script>
+
+	<style>
+		body {
+			padding: 15px;
+		}
+
+		html, body {
+  width:  100%;
+  height: 100%;  
+}
+
+#drop_zone {
+  border: 5px solid blue;
+  width:  100%;
+  height: 100%;
+}
+
+#drop_zone_label {
+  margin: 1em;
+  display: block;
+}
+
+	</style>
+	
+ </head>
+ 
+<body>
+		<div id="picker_zone" style="margin:20px ;color:blue">
+				<input type="file" accept="image/*" id="input">
+		  </div>
+ <div class="panel">
+	<h3>Download Folder Location:</h3>
+	<input type="text" name="downloadFolder" value="D:\Music\YoutubeDL" />
+	
+	<div id="selectedFolder"> </div>
+    <div class="switch-tabs">
+ 
+     <div id="tabs-list"></div>
+ 
+	</div>
+	
+	
+
+ </div>
+ 
+ <script src="tabs.js"></script>
+ 
+</body>
+ 
+</html>
